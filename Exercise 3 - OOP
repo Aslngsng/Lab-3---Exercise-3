@@ -5,3 +5,17 @@
 # create a method that will change the vowels to Uppaer case and it should have a name "vowelsToUpper"
 
 #print the output
+
+words = input("Please enter words: ")
+
+def vowelsToUpper (i):
+    result = "" .join(char.upper() if char in "aeiouAEIOU" else char for char in i)
+    return result
+
+print (vowelsToUpper(words))
+
+#input
+# Hi, April Mae L. Salangsang, ang cute mo naman
+
+#output
+# HI, AprIl MAE L. SAlAngsAng, Ang cUtE mO nAmAn
